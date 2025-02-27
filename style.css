@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 150px;
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+}
+
+nav{
+    display: flex;
+    gap: 30px;
+    
+}
+nav a{
+    text-decoration: none;
+    z-index: 3686;
+    color: #ffffff;
+}
+
+.icon img{
+    width: 120px;
+    height: 120px;
+}
+
+.main{
+    width: 100%;
+    height: 1100px;
+    background: url(./image/bg\ \(2\).png);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 150px;
+}
+
+
+.kids-sky{
+    width: 100%;
+    height: auto;
+}
+
+.kids-sky img{
+    position: absolute;
+    top: 67px;
+    right:0px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
