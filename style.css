@@ -292,9 +292,9 @@ nav a {
     height: auto;
     width: 20%;
     box-sizing: border-box;
-    padding: 20px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 40px;
 }
 
 .games-head span {
@@ -351,3 +351,140 @@ nav a {
     letter-spacing: 0%;
     color: #ffffff;
 }
+
+.games-slider {
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.slider img {
+    width: 240px;
+    height: 326px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 120px;
+    z-index: 11111;
+}
+
+.slider {
+    width: 320px;
+    height: 292px;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 7px #d3d3d353, -5px -5px 7px #d3d3d353;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+    z-index: 111;
+}
+
+.slider:hover{
+    transform: scale(1.1);
+}
+
+
+
+.adventure {
+    width: 255px;
+    height: 110px;
+    position: relative;
+    top: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.adventure button {
+    width: 125px;
+    height: 40px;
+    border: 2px solid#D9D8E4;
+    color: #9594AA;
+    outline: none;
+    border-radius: 10px;
+    font-family: "Dosis", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+    background-color: #ffffff;
+
+}
+
+
+/*Swpier slider*/
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 40px !important;
+    margin-bottom: 40px;
+    z-index: -11;
+}
+
+.swiper-slide {
+    width: 340px !important;
+    margin-left: 20px;
+    z-index: -11;
+
+}
+
+.append-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.append-buttons button {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #007aff;
+    color: #007aff;
+    text-decoration: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin: 0 10px;
+    font-size: 13px;
+}
+
+/*   <div class="slider-btn">
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>*/
+
+
+
+/* typeoffloor*/
+
+
+.typeoffloor{
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.typeoffloor img {
+    position: absolute;
+    right: 0px;
+}
+
+.typeoff{
+    margin-top: 200px;
+    background-color: #2F73F6;
+}
+
+
+
+
+
+

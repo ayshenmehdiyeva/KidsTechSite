@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -93,17 +94,138 @@
                         <circle cx="18.125" cy="7.875" r="1.125" fill="#2F73F6" />
                     </svg>view all games</button>
             </div>
-            <div class="games-slider"></div>
-            <div class="slider-btn"></div>
+            <div class="games-slider">
+                <div #swiperRef="" class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="slider">
+                                <img src="./image/img (3).jpg" alt="">
+                                <div class="adventure">
+                                    <button>adventure</button>
+                                    <button>collorabation</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider">
+                                <img src="./image/img (1).jpg" alt="">
+                                <div class="adventure">
+                                    <button>adventure</button>
+                                    <button>collorabation</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider">
+                                <img src="./image/img (2).jpg" alt="">
+                                <div class="adventure">
+                                    <button>adventure</button>
+                                    <button>collorabation</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider">
+                                <img src="./image/img.jpg" alt="">
+                                <div class="adventure">
+                                    <button>adventure</button>
+                                    <button>collorabation</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+    </section>
+    <section class="typeoffloor">
+        <div class="typeoff">
+            <div class="type-head">
+                <h3>Types of floors</h3>
+                <p>An interactive floor is a game system that consists of a sensor, projector, computer and special
+                    software.</p>
+            </div>
+            <div class="verion-btn">
+                <div>1. Ceiling version</div>
+                <div>2. Ceiling version</div>
+                <div>3. Ceiling version</div>
+            </div>
+            <div class="verion-info">
+                <div class="version-img">
+                    <div><img src="./image/main photo.jpg" alt="" srcset=""></div>
+                    <div><img src="./image/Rectangle 14.png" alt=""><img src="./image/Rectangle 14.png" alt=""></div>
+                </div>
+                <div class="version-info">
+                    <h5>Ceiling version</h5>
+                    <p>Optimal solution in terms of reliability in use and price: a set with a projector in a protective
+                        metal box.
+                        The color of the case can be any.
+                    </p>
+                    <br>
+                    <p>The play area depends on the height of your ceiling and can be up to 14 m². We will calculate for
+                        you individual interactive floor projects for kindergartens, schools and entertainment
+                        institutions.
+                        The set includes:</p>
+                    <div>
+                        <ul>
+                            <li>Powerful projector
+                            </li>
+                            <li>Powerful projector
+                            </li>
+                            <li>Powerful projector
+                            </li>
+                            <li>Powerful projector
+                            </li>
+                            <li>Powerful projector
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>Powerful projector
+                            </li>
+                            <li>Powerful projector
+                            </li>
+                            <li>Powerful projector
+                            </li>
+                            <li>Powerful projector
+                            </li>
+                            <li>Powerful projector
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./image/Frame 179.png" alt="">
     </section>
     <section></section>
     <section></section>
     <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            centeredSlides: true,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                type: "fraction",
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+
+
+    </script>
+
+
 </body>
 
 </html>
