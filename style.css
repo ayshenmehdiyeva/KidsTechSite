@@ -513,11 +513,39 @@ nav a {
 }
 
 
-.version-info,
 .set-inclueds {
     display: flex;
     flex-direction: row;
     gap: 50px;
+}
+
+
+.version-info {
+    height: auto;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.version-info .info{
+    width: 60%;
+}
+
+
+
+.big-img {
+    border-radius: 30px;
+
+}
+
+.big-img img {
+    object-fit: cover;
+    width: 40%;
+    height: 340px;
+    border-radius: 30px;
+
 }
 
 .version-btn {
