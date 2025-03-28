@@ -823,12 +823,12 @@ nav a {
     justify-content: center;
 }
 
-.package-head{
+.package-head {
     width: 60%;
     height: auto;
 }
 
-.package-list{
+.package-list {
     width: 60%;
     height: auto;
     display: flex;
@@ -840,7 +840,7 @@ nav a {
 .package ul {
     list-style: none;
     height: auto;
-   position: relative;
+    position: relative;
 }
 
 .package ul li {
@@ -886,4 +886,122 @@ nav a {
     border-radius: 30px;
     position: relative;
     right: -160px;
+}
+
+.wydg {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.wydg-img {
+    width: 100%;
+    position: relative;
+}
+
+.wydg-main {
+    width: 65%;
+    height: auto;
+    position: absolute;
+    left: 20%;
+    bottom: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wydg h2 {
+    font-family: "Dosis", sans-serif;
+    font-weight: 800;
+    font-size: 85px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.wydg-text {
+    text-align: center;
+    width: 80%;
+    font-family: "Dosis", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 155%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #fff;
+    margin-top: 40px;
+}
+
+.checklist {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+
+.checklist h1,
+.checklist h2 {
+    width: 100%;
+    font-family: "Dosis", sans-serif;
+    font-weight: 800;
+    line-height: 90%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #2F73F6;
+}
+
+.checklist h1 {
+    font-size: 140px;
+}
+
+.checklist h2 {
+    font-size: 50px;
+}
+
+.checklist-text {
+    width: 50%;
+    padding: 0px;
+    height: auto;
+    margin-top: 300px;
+}
+
+.checklist-text button {
+    margin-top: 50px;
+    width: 448px;
+    height: 72px;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1), -4px -4px 8px rgba(0, 0, 0, 0.1);
+    font-family: "Dosis", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #363078;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.checklist-text button img{
+    margin-right: 15px;
+}
+
+
+.checklist p {
+    width: 100%;
+    font-family: "Dosis", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 155%;
+    letter-spacing: 0%;
+    color: #222A3F;
 }
